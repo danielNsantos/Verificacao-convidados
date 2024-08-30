@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #fff;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#reader {
+    margin-top: 20px;
+    border: 3px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+p#message {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
